@@ -26,3 +26,6 @@ func main() {
 	fmt.Println(num)
 
 }
+
+//学会使用if else语法
+//学会使用标准输入输出语法
