@@ -21,11 +21,8 @@ func needNumber(m, n, a int32) int32 {
 }
 func main() {
 	var m, n, a int32
-	for {
-		fmt.Println("请输入场地的长和宽以及瓷砖的长度(整数，用空格间隔）:")
-		fmt.Scanln(&m, &n, &a)
-		num := needNumber(m, n, a)
-		fmt.Println("需要的瓷砖数目为:", num)
-		continue
-	}
+	fmt.Scanln(&m, &n, &a)
+	num := needNumber(m, n, a)
+	fmt.Println(num)
+
 }
